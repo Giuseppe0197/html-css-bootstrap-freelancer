@@ -159,44 +159,27 @@
 
 .footer-superiore {
     background-color: #3A546D;
-    min-height: 100px;
+    min-height: 150px;
     margin-top: 20px;
+    align-content: center;
 }
 
 .location {
     background-color: aqua;
     height: 50px;
-    margin-top: 40px;
-}
-
-.indirizzo {
-    background-color: burlywood;
-    height: 50px;
-    margin-top: 15px;
-}
-
-.titolo-footer {
-    background-color: coral;
-    height: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .icone {
     background-color: darkgoldenrod;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .about {
     height: 50px;
     background-color: darkgreen;
-    margin-top: 30px;
-}
-
-.freelance {
-    height: 50px;
-    background-color: darkred;
-    margin: 10px 0 50px 0;
+    margin-top: 20px;
 }
 
 /* footer inferiore */
