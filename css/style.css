@@ -1,0 +1,19 @@
+/* menu della pagina */
+
+.darkblue {
+    background-color: #2C3E50;
+    height: 80px;
+}
+
+.head-menu {
+    height: 60px;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: yellow;
+}
+
+/* jumbo */
+
+.jumbo {
+    min-height: 100px;
+}
