@@ -154,3 +154,60 @@
     border: none;
     margin-top: 10px;
 }
+
+/* footer superiore */
+
+.footer-superiore {
+    background-color: #3A546D;
+    min-height: 100px;
+    margin-top: 20px;
+}
+
+.location {
+    background-color: aqua;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.indirizzo {
+    background-color: burlywood;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.titolo-footer {
+    background-color: coral;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.icone {
+    background-color: darkgoldenrod;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.about {
+    height: 50px;
+    background-color: darkgreen;
+    margin-top: 30px;
+}
+
+.freelance {
+    height: 50px;
+    background-color: darkred;
+    margin: 10px 0 50px 0;
+}
+
+/* footer inferiore */
+
+.footer-inferiore {
+    height: 70px;
+    background-color: #2C3E50;
+}
+
+.copyright {
+    height: 30px;
+    background-color: darkseagreen;
+    margin-top: 20px;
+}
