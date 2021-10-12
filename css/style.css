@@ -79,6 +79,7 @@
 .stella-jumbo {
     color: white;
     margin: 0 10px;
+    font-size: 30px;
 }
 
 .stellina-righe {
@@ -109,45 +110,43 @@
 /* parte principale con immagini */
 
 .titolo-main {
-    background-color: yellowgreen;
     height: 40px;
-    margin: 30px 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.titolo-main h2 {
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.linea-main {
+    width: 10%;
+    height: 2px;
+    background-color: #2C3E50;
+    border: 2px solid #2C3E50;
+}
+
+.stellina-main {
+    color: #2C3E50;
+    margin: 0 10px;
+    font-size: 30px;
 }
 
 .stella-main {
     height: 40px;
-    background-color: red;
     margin-bottom: 10px;
 }
 
 .immagine-main {
-    height: 150px;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    max-width: 100%;
+    margin-bottom: 15px;
 }
 
-#immagine-1 {
-    background-color: #BA4B63;
-}
-
-#immagine-2 {
-    background-color: #1EA4B6;
-}
-
-#immagine-3 {
-    background-color: #140F0F;
-}
-
-#immagine-4 {
-    background-color: #1C83C1;
-}
-
-#immagine-5 {
-    background-color: #0E38B5;
-}
-
-#immagine-6 {
-    background-color: #CCB2A3;
+.immagine-main img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
 }
 
 /* parte verde inferiore */
