@@ -243,22 +243,25 @@
     margin-bottom: 10px;
 }
 
-.contatti {
-    margin-top: 15px;
+.form-control::placeholder {
+    color: #243749;
 }
 
-.contatti span {
-    color: #25384A;
+.form-control {
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
 }
 
-.bordo {
-    border-top: 2px solid #D1D1D1;
-    padding-top: 5px;
+#floatingTextarea {
+    min-height: 200px;
+}
+
+#floatingTextarea::placeholder {
+    color: #243749;
 }
 
 .bottone-contatti {
-    margin-top: 100px;
-    border-top: 2px solid #D1D1D1;
+    margin-top: 10px;
 }
 
 .bottone-contatti button {
