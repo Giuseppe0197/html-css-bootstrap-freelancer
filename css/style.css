@@ -157,27 +157,57 @@
 }
 
 .titolo-green {
-    background-color: yellowgreen;
     height: 40px;
     margin: 30px 0;
+    text-align: center;
+}
+
+.titolo-green h2 {
+    color: white;
+    text-transform: uppercase;
 }
 
 .stella-green {
-    height: 40px;
-    background-color: red;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.linea-green {
+    width: 10%;
+    height: 2px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.stellina-green {
+    color: white;
+    margin: 0 10px;
+    font-size: 25px;
 }
 
 .paragrafo {
-    background-color: purple;
-    min-height: 200px;
     margin-bottom: 15px;
 }
 
+.paragrafo p {
+    color: white;
+    font-size: 19px;
+}
+
 .bottone {
-    height: 40px;
     margin: 20px;
-    background-color: royalblue;
+    text-align: center;
+}
+
+.bottone button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fa-download {
+    margin-right: 5px;
 }
 
 /* sezione contatti */
