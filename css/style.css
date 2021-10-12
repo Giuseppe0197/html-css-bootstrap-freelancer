@@ -280,21 +280,57 @@
 }
 
 .location {
-    background-color: aqua;
-    height: 50px;
     margin-top: 20px;
+    text-align: center;
 }
 
+.location h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.location p {
+    color: white;
+    font-weight: bold;
+}
+
+
 .icone {
-    background-color: darkgoldenrod;
-    height: 50px;
     margin-top: 20px;
+    text-align: center;
+}
+
+.icone h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.fab {
+    color: white;
+    margin-right: 5px;
+    font-size: 30px;
 }
 
 .about {
-    height: 50px;
-    background-color: darkgreen;
     margin-top: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.about p {
+    color: white;
+    font-weight: bold;
+}
+
+.about span {
+    color: #1ABC9C;
 }
 
 /* footer inferiore */
