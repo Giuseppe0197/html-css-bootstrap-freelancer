@@ -63,16 +63,47 @@
     text-transform: uppercase;
 }
 
+.contenitore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea-jumbo {
+    width: 10%;
+    height: 2px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.stella-jumbo {
+    color: white;
+    margin: 0 10px;
+}
+
 .stellina-righe {
     margin-top: 20px;
     height: 40px;
-    background-color: rebeccapurple;
 }
 
 .lista {
-    background-color: saddlebrown;
     height: 40px;
-    margin: 30px 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.lista span {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.graphic {
+    text-align: end;
+}
+
+.designer {
+    text-align: center;
 }
 
 /* parte principale con immagini */
