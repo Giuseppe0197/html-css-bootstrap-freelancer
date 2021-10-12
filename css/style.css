@@ -5,11 +5,42 @@
     height: 80px;
 }
 
-.head-menu {
-    height: 60px;
+.titolo-menu h2 {
     line-height: 80px;
     vertical-align: middle;
-    background-color: yellow;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbar>.container {
+    justify-content: flex-end;
+}
+
+.navbar-background {
+    background-color: #2C3E50;
+}
+
+.navbar-toggler {
+    align-self: flex-end;
+}
+
+.navbar-light .navbar-toggler {
+    color: #93918F;
+    border-color: #DCDCDC;
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none;
 }
 
 /* jumbo */
@@ -19,16 +50,17 @@
     background-color: #1ABC9C;
 }
 
-.immagine {
-    height: 200px;
-    background-color: tomato;
-    margin-top: 50px;
+.immagine img {
+    max-width: 100%;
+    margin-top: 40px;
 }
 
-.titolo-start {
+.titolo-start h2 {
+    font-size: 40px;
+    color: white;
     margin-top: 15px;
-    height: 40px;
-    background-color: violet;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .stellina-righe {
