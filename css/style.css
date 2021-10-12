@@ -336,17 +336,12 @@
 /* footer inferiore */
 
 .footer-inferiore {
-    height: 70px;
+    text-align: center;
     background-color: #2C3E50;
 }
 
 .copyright {
-    height: 30px;
-    background-color: darkseagreen;
-    margin-top: 20px;
-}
-
-.prova {
-    height: 50px;
-    background-color: darkslateblue;
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
 }
